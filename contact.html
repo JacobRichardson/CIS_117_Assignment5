@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- This is extra info about the webpage that is not displayed. -->
+	<title>Index</title>
+	<meta charset="utf-8" />
+    <meta name="Author" content="Jacob Richardson" />
+    <meta name="Keywords" content="Jacob Richardson" />
+    <meta name="Description" content="CIS 117 Assingmnet 5" />
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+	<!--Page Heading -->
+	<div>
+		<a href="index.html">
+			<img class="big-image"src="icon3.jpg">
+		</a>
+	</div>
+	
+	<!-- Navigation -->
+	<div class="navigation">
+		<a href="index.html">Index</a>
+		<a href="resume.html">Resume</a>
+		<a href="contact.html">Contact</a>
+	</div>
+	
+	<!-- Main content area -->
+	<div class="content">
+
+		<!-- Contact Me Section -->
+		<h2 class="heading">Contact Me</h2>
+
+		<!-- Form that uses mailto: to send an email to my email. -->
+		<form action="mailto:jrich10@brockport.edu" method="post" enctype="text/plain">
+			
+			<!--User's first name. -->
+			First Name: <br />
+			<input class="margin-bottom" type="text" name="name"> <br />
+			
+			<!--User's email that I can reply to. -->
+			Email: <br />
+			<input class="margin-bottom" type="text" name="mail"> <br />
+			
+			<!--User's content of email. -->
+			Contents: <br />
+			<textarea class="margin-bottom" rows="15" cols="100" name="comment"></textarea> <br /> <br />
+
+			<!--Button to send email -->
+			<input class="button" type="submit" value ="Send">
+		</form>	
+	</div>
+</body>
+</html>
