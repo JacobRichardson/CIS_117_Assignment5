@@ -76,3 +76,25 @@ a {
 .margin-bottom {
 	margin-bottom: 20px;
 }
+
+.iframe {
+	border: none;
+	width: 70%;
+	height: 70%;
+	
+}
+
+.blue {
+	color : #2287F9;
+}
+
+.removeNumbers {
+	list-style-type: none;
+}
+
+.frame {
+	width: 100%;
+	height: 100%;
+	overflow: scroll;
+	overflow-x: hidden;
+}	
