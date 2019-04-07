@@ -58,7 +58,7 @@ a {
 }
 
 .resume {
-	margin-top: 30px;
+	margin: 100px 0px;
 	color: #1292FD;
 	text-decoration: underline;
 }
@@ -98,3 +98,15 @@ a {
 	overflow: scroll;
 	overflow-x: hidden;
 }	
+
+.resume-heading {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.margin-right {
+	margin-right: 10px;
+}
